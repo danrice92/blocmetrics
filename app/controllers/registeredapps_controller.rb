@@ -20,6 +20,7 @@ class RegisteredappsController < ApplicationController
 
   def show
     @registeredapp = Registeredapp.find(params[:id])
+    @events = @registeredapp.events.sort_by(&:name)
     unless @registeredapp.user == current_user
       flash[:alert] = "You are not authorized to view this app."
       redirect_to root_path
