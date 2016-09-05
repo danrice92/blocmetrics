@@ -2,6 +2,7 @@ source 'https://rubygems.org'
  
  # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
  gem 'rails'
+ gem 'pg'
  
  group :production do
    gem 'rails_12factor'
@@ -22,6 +23,8 @@ source 'https://rubygems.org'
  gem 'figaro'
  gem 'pry'
  gem 'devise'
+ gem 'chartkick'
+ gem 'groupdate'
  
  group :development, :test do
    gem 'byebug'
