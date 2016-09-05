@@ -1,6 +1,5 @@
 ## Blocmetrics
 
-{:.center}
 ![](app/assets/images/blocmetrics-chart.jpg)
 
 Blocmetrics is my third Rails project for my Software Engineering Track at [Bloc](http://bloc.io). It is an analytics service to track events on websites.
