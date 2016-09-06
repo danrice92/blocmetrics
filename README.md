@@ -17,6 +17,6 @@ This is the JavaScript snippet developers can put in their app to track events. 
 	    request.send(JSON.stringify(event));
 	};
 
-You can check out more about Blocmetrics, the rest of my portfolio, my blog, and my experience at Bloc at my [website](http://danrice.me).
+You can check out more about Blocmetrics, the rest of my portfolio, my blog, and my experience at Bloc at my [website](http://danrice.me). Blocmetrics itself is live through [Heroku](http://dan-rice-blocmetrics.herokuapp.com).
 
 Made with my mentor at [Bloc](http://bloc.io).
